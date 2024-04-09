@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Express Static Files Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.jpeg" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="719.html">SIT-719</a></li>
+        <li><a href="725.html">SIT-725</a></li>
+        <li><a href="726.html">SIT-726</a></li>
+      </ul>
+    </nav>
+    <div class="linkedin">
+      <a href="https://www.linkedin.com/in/yash-aggarwal-921059242/">LinkedIn</a>
+    </div>
+  </header>
+
+  <main>
+    <h2 class="section-heading">Welcome to Deakin University</h2>
+  <!-- Image with hover effect -->
+  <div class="image-container">
+    <img src="de.jpg" alt="Image" class="zoom-image">
+  </div>
+    <button id="showFormBtn">Show Form</button>
+
+    <!-- Modal Form (Initially hidden) -->
+    <!-- Modal Form -->
+<div id="modalForm" class="modal" style="display: none;">
+  <div class="modal-content">
+    <!-- Close button -->
+    <span class="close">&times;</span>
+    <h2>Submition Form</h2>
+    <!-- Form content -->
+    <form id="form">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required><br><br>
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required><br><br>
+      <label for="email">Gmail:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <!-- <label for="query">Query:</label>
+      <textarea id="query" name="query" rows="4" required></textarea><br><br> -->
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}"><br><br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+    <!-- Card Section -->
+    
+
+    
+    
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

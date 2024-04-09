@@ -1,0 +1,149 @@
+body{
+    /* background-color: black; */
+    margin: 0;
+}
+/* Centered section heading */
+.section-heading {
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Image container */
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Add some space below the image */
+}
+
+/* Zoom effect on image hover */
+.zoom-image {
+  transition: transform 0.3s; /* Smooth transition */
+}
+
+.zoom-image:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
+  nav ul { 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+  }
+  
+  nav ul li {
+    margin-right: 20px; 
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0; 
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  #modalForm{
+    display: none;
+    background-color: antiquewhite;
+    padding: 10px;
+  }
+  /* Resetting margin and padding for body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Centering elements horizontally */
+header,
+main {
+  text-align: center;
+}
+
+/* Styling Cards */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 10px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling the modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+  
+
+
+
+/* Form content */
+#form {
+  text-align: center; /* Center the form */
+}
+
+/* Form input fields */
+#form label,
+#form input,
+#form textarea {
+  display: inline-block; /* Display elements in one line */
+  margin-right: 10px; /* Add some spacing between fields */
+  vertical-align: top; /* Align elements vertically */
+}
+
+/* Adjust width for specific fields */
+#form label {
+  width: 100px; /* Set width for labels */
+}
+
+#form input[type="text"],
+#form input[type="email"],
+#form input[type="tel"],
+#form textarea {
+  width: 200px; /* Set width for input fields */
+}
